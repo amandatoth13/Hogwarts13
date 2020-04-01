@@ -9,6 +9,11 @@ header {
     text-align: center; 
 }
 
+.container-1 {
+    display:flex;
+    justify-content: space-evenly;
+
+}
 body {
     background-color: black;
    color:  rgba(224, 1, 1, 0.479);
@@ -25,6 +30,11 @@ body {
     width: 300px;
     height:300px;
     align-self: auto;
+
+}
+
+h4 {
+    max-width: 150px;
 }
 
     
@@ -32,15 +42,18 @@ body {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;  
+    padding: 10px;
+}
+
+p {
+    max-width: 150px;
 }
 
 .card {
-    flex: 0,1,50%;
+    padding: 20px;
+    max height: 150px
 }
-  
 
 
 
